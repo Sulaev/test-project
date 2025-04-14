@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-color: bisque;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.frontispiece {
+  width: 100%;
+}
+
+.logo {
+}
+
+.tagList {
+  display: flex;
+  gap: 3vh;
+}
+
+.content-block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+picture {
+  display: block;
+  margin: 0 auto;
+}
+
+picture img {
+  height: 1009px;
+  width: 763px;
+  object-fit: cover;
+}
